@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="link para mandar la informacion" 
+    method="post" 
+    enctype="multipart/form-data">
+
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="codigo" placeholder="predeterminado">
+
+    <button type="submit">Enviar</button>
+
+    <input type="submit" value="El titulo del boton">
+
+
+    <fieldset> <!--hace que lo mete en una caja-->
+        <legend> Titulo </legend><!--Agrega un titulo a la caja-->
+    <label for="x"></label>
+    <textarea name="" id="x" cols="30" rows="10"></textarea>
+
+    </fieldset>
+
+    <div>
+        Radio:
+        <input type="radio" name="genero" value="hombre">
+        <input type="radio" name="genero" value="mujer">
+    </div>
+
+    <div>
+        Radio:
+        <input type="radio" name="genero" id="hombre" value="hombre">
+        <label for="hombre" ">Hombre</label>
+        <input type="radio" name="genero" id="mujer" value="Mujer">
+        <label></label>
+   </div>
+
+   <div>
+    <select name="" id="">
+        <option value=""></option>
+    </select>
+   </div>
+   
+   <div>
+    <label for="">
+    <input type="checkbox">
+</label>
+   </div>
+
+   <div>
+    <input type="reset" value="Limpiar el formulario" required
+    minlength="" maxlength="">
+   </div>
+
+   <div>
+    <input type="tel">
+   </div>
+
+   <div>
+    <progress max="" min=""></progress>
+   </div>
+
+   <input name="frutas">
+   <datalist>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+   </datalist>
+
+   <input type="text" required pattern="[A-Za-z ]+">
+</form> <!--POST escondido y GET en la url-->
+</body>
+</html>
